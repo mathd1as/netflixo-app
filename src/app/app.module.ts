@@ -7,9 +7,11 @@ import { HomeComponent } from './pages/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { HttpClientModule } from '@angular/common/http';
+import { MovieCardComponent } from './components/movie-card/movie-card.component';
+import { NowPlayngMoviesComponent } from './components/now-playng-movies/now-playng-movies.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, HeaderComponent],
+  declarations: [AppComponent, HomeComponent, HeaderComponent, MovieCardComponent, NowPlayngMoviesComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

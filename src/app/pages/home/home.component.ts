@@ -11,10 +11,5 @@ export class HomeComponent {
 
   constructor(private homeService: HomeService) {}
 
-  ngOnInit(): void {
-    this.homeService.getMoviesNowPlayng().subscribe((reponse) => {
-      this.nowPlayngMovies = reponse.results;
-      console.log(reponse);
-    });
-  }
+  ngOnInit(): void {}
 }
